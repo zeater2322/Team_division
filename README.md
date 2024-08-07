@@ -14,6 +14,7 @@
 最後結合tkinter做介面，結果如下
 
 注意右邊按鈕 可以選擇要顯示哪些部分
+
 ![](https://github.com/zeater2322/Team_division/blob/master/test_short.gif)
 ## 利用技術/語言
 - 語言:
