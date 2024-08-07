@@ -6,8 +6,14 @@
 ## 流程和代碼
 第一步是在我的自定義類上訓練 YOLO 物件檢測模型，分別有球員、籃球以及籃框三個類，但是訓練集太大了所以沒有放上來。
 訓練結果還不夠好，有時會把裁判也當成球員
+然後取中心圓點(如下圖，只取重要部分來提升準確率)
+![](https://github.com/zeater2322/Team_division/blob/master/mask.png)
+利用 HSV 圖像的顏色直方圖取特徵並且進行正規化處理
 
+再利用層次聚類來根據特徵做分類(分隊)
+最後結合tkinter做介面，結果如下
 
+注意右邊按鈕 可以選擇要顯示哪些部分
 ![](https://github.com/zeater2322/Team_division/blob/master/test_short.gif)
 ## 利用技術/語言
 - 語言:
